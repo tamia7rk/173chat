@@ -1,7 +1,7 @@
 {
-  "name": "nn-chat",
+  "name": "173chat",
   "version": "1.0.0",
-  "description": "NNチャット",
+  "description": "173チャット",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -16,5 +16,8 @@
     "pg-hstore": "2.3.3",
     "pug": "3.0.2",
     "sequelize": "6.5.0"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

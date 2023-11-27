@@ -6,11 +6,11 @@ html(lang="ja")
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
     crossorigin="anonymous")
-    title NNチャット
+    title 173チャット
   body(class = currentTheme === 'light' ? "container" : "container bg-dark text-white")
     div.my-3
       a(href="/logout").btn.btn-info.float-right ログアウト
-      h1 NNチャット
+      h1 173チャット
     form(method="post" action="/posts")
       div.form-group
         textarea(name="content" rows="4" class = currentTheme === 'light' ? "form-control" : "form-control bg-secondary text-white")
